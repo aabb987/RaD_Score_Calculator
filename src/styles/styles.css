@@ -47,22 +47,32 @@ footer {
 
 /* Container styles */
 .container {
-    max-width: fit-content; /* Adjust width to fit content */
-    margin: 0; /* Align to the left */
+    max-width: 100%; /* Ensure it fits within the viewport */
+    margin: 0 auto; /* Center align on mobile */
     padding: 1rem;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increased shadow size and opacity for more prominence */
+    display: inline-block; /* Allow the container to shrink to fit its content */
+    max-width: 50%; /* Ensure it doesn't exceed half the page width */
     border: 1px solid #000000; /* Reduced border width for subtlety */
 }
 
 /* Flex container styles */
 .flex-container {
     display: flex;
-    flex-direction: row; /* Horizontal alignment */
-    justify-content: space-between; /* Space between children */
-    align-items: flex-start; /* Align children to the top */
+    flex-direction: column; /* Stack items vertically on mobile */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: flex-start; /* Align items to the left */
     gap: 1rem; /* Add spacing between children */
+}
+
+@media (min-width: 768px) {
+    .flex-container {
+        flex-direction: row; /* Horizontal alignment for larger screens */
+        justify-content: flex-start; /* Align items to the left */
+        align-items: flex-start; /* Align children to the top-left */
+    }
 }
 
 .borderLine {
