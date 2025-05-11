@@ -69,13 +69,24 @@ footer {
 
 @media (min-width: 768px) {
     .container {
-        max-width: 100%; /* Occupy the full width of the screen */
-        margin: 0; /* Remove any horizontal margin */
+        max-width: 75%; /* Occupy 75% of the screen width for larger screens */
+        margin: 0 auto; /* Center align horizontally */
     }
     .flex-container {
         flex-direction: row; /* Horizontal alignment for larger screens */
-        justify-content: flex-start; /* Align items to the left */
-        align-items: flex-start; /* Align children to the top-left */
+        justify-content: space-between; /* Distribute items evenly with space between */
+        align-items: center; /* Align children to the center vertically */
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 90%; /* Occupy 90% of the screen width for smaller screens */
+        margin: 0 auto; /* Center align horizontally */
+    }
+    .flex-container {
+        flex-direction: column; /* Stack items vertically for smaller screens */
+        gap: 1rem; /* Maintain spacing between children */
     }
 }
 
