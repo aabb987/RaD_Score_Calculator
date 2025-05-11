@@ -1,0 +1,71 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #0078d7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+/* Button styles */
+button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Container styles */
+.container {
+    max-width: fit-content; /* Adjust width to fit content */
+    margin: 0; /* Align to the left */
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000; /* Reduced border width for subtlety */
+}
+
+/* Flex container styles */
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Horizontal alignment */
+    justify-content: space-between; /* Space between children */
+    align-items: flex-start; /* Align children to the top */
+    gap: 1rem; /* Add spacing between children */
+}
+
+.borderLine {
+    border: 1px solid #000; /* Solid black border */
+    padding: 1rem; /* Add spacing between border and content */
+}
