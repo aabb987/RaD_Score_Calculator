@@ -2,6 +2,7 @@
 a AC6 score calculator for our DC group use.
 
 要查看機體的分數去 src/data_folder/units_data.js 裡面看，但是沒圖片，純文字
+
 裡面的檔案有一半是我東參考西參考拼出來的，所以要做好遇到非常奇怪BUG的心理準備
 
 如果發現有部件不符合的話要報錯，請按 F12 開啟 Console，然後選好有問題的零件後按 Calculate Score
