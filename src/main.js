@@ -21,12 +21,15 @@ document.getElementById("calculate-score").addEventListener("click", function ()
         if (selectedOption && selectedOption.value !== "default") {
             const selectedItem = [...arm_weapon_ranged, ...arm_weapon_melee, ...back_weapon, ...back_weapon_shield, ...parts_head, ...parts_body, ...parts_hand, ...parts_leg, ...booster, ...fire_control_system, ...generators].find(item => item.id === selectedOption.value);
             if (selectedItem) {
+                console.log("Selected Option Value:", selectedOption.value);
+                console.log("Selected Item:", selectedItem);
                 totalScore += parseInt(selectedItem.score);
             }
         }
     });
     document.getElementById("total-score").textContent = "Total Score: " + totalScore;
 });
+
 
 
 
