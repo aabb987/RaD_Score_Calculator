@@ -6,5 +6,5 @@ a AC6 score calculator for our DC group use.
 裡面的檔案有一半是我東參考西參考拼出來的，所以要做好遇到非常奇怪BUG的心理準備
 
 如果發現有部件不符合的話要報錯，請按 F12 開啟 Console，然後選好有問題的零件後按 Calculate Score
-沒意外的話，會出現米選取的各種零件，把這張圖擷取下來跟我講。
+沒意外的話，會出現你選取的各種零件，把這張圖擷取下來跟我講。
 ![image](https://github.com/user-attachments/assets/63bf9cdf-1988-447b-87a2-66ee975541ef)
