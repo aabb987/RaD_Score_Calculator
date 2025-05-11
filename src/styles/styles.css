@@ -68,6 +68,10 @@ footer {
 }
 
 @media (min-width: 768px) {
+    .container {
+        max-width: 80%; /* Increase max width for larger screens */
+        margin: 0 auto; /* Center align on larger screens */
+    }
     .flex-container {
         flex-direction: row; /* Horizontal alignment for larger screens */
         justify-content: flex-start; /* Align items to the left */
