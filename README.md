@@ -1,6 +1,8 @@
 # RaD_Score_Calculator
 a AC6 score calculator for our DC group use.
 
+## 網站連結：https://aabb987.github.io/RaD_Score_Calculator/
+
 要查看機體的分數去 src/data_folder/units_data.js 裡面看，但是沒圖片，純文字
 
 裡面的檔案有一半是我東參考西參考拼出來的，所以要做好遇到非常奇怪BUG的心理準備
