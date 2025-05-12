@@ -10,7 +10,20 @@ a AC6 score calculator for our DC group use.
 沒意外的話，會出現你選取的各種零件，把這張圖擷取下來跟我講。  
 ![image](https://github.com/user-attachments/assets/63bf9cdf-1988-447b-87a2-66ee975541ef)
 
+## Please take less than a minute to read the following notes before visiting the website
+To check the scores and IDs of each part, go to src/data_folder/units_data.js.
+I've already sorted them into categories. The only things you need to look at are the name and score; the id can usually be ignored.
+
+If you find a part that doesn’t match or seems incorrect, please report it.
+Press F12 to open the Console, then select the problematic parts and click the "Calculate Score" button.
+If everything works correctly, it should show all the parts you've selected. Take a screenshot of that and let me know.
+
+![image](https://github.com/user-attachments/assets/63bf9cdf-1988-447b-87a2-66ee975541ef)
+
 裡面的檔案有一半是我東參考西參考拼出來的，所以要做好遇到非常奇怪BUG的心理準備
+
+About half of the files were pieced together from various references, so be mentally prepared to encounter some really weird bugs.
+
 
 
 ## 網站連結：https://aabb987.github.io/RaD_Score_Calculator/
